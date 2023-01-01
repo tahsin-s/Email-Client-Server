@@ -100,40 +100,4 @@ System.out.println(limit);
 	    return idx;
 	}
     }
-    
-/*    public static void main(String[] args) {
-	String[] list = new String[5];
-	list[0] = "Ming";
-	list[1] = "Jackie";
-	list[2] = "Richard";
-	list[3] = "Mahir";
-	list[4] = "Keith";
-	SearchAndSort.selectionSort(list);
-	printStrings(list);
-	System.out.println();  
-	SearchAndSort.bubbleSort(list); 
-	printStrings(list);
-	System.out.println(); 
-	insertionSort(list);
-	printStrings(list);
-	System.out.println(); 
-	
-	String[] numbers = new String[500000];
-	for (int i = 100000; i < 600000; i++) {
-	    numbers[i - 100000] = "" + i;
-	}
-	
-	long startTime = System.currentTimeMillis();
-	for (int i = 0; i < 10; i++) {
-	    System.out.println(linearSearch(numbers, "143000"));
-	}
-	System.out.println(System.currentTimeMillis() - startTime);
-
-	startTime = System.currentTimeMillis();
-	for (int i = 0; i < 10; i++) {
-	    System.out.println(binarySearch(numbers, "143000"));
-	}
-	System.out.println(System.currentTimeMillis() - startTime);
-
-    } */
 }
